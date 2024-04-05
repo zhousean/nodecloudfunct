@@ -1,0 +1,16 @@
+{
+  "name": "seanfunctjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=seanfunctjs --signature-type=http"
+  },
+  "author": "",
+  "license": "ISC",
+  "gcp-build": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "memjs": "^1.3.2"
+  }
+}
